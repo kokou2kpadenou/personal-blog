@@ -41,14 +41,18 @@ h4,
     font-size: var(--fs-400);
     margin: 0 0 var(--spacing-xs) 0;
     display: inline-block;
-    font-weight: 900;
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .uppercase {
     text-transform: uppercase;
 }
 
-.underline {
+.underlined {
     text-decoration: underline;
 }
 
