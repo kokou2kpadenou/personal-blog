@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Fur and Fables - Personal Blog</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Welcome to Fur and Fables, a blog dedicated to exploring the fascinating and
+            fantastical world of animals through the art of fiction." />
+    <link href="css/home.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="/favicon16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="/favicon32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/favicon96x96.png" sizes="96x96" />
+</head>
+
+<body>
+    <header>
+        <nav id="navbar" class="navbar column1">
+            <a class="h4" href="/" aria-label="Go to homepage"> Fur and Fables </a>
+            <div class="navbar-left">
+                <input type="checkbox" name="menu-btn" id="menu-btn" class="menu-checkbox" />
+
+                <menu class="menu">
+                    <li class="menu-item">
+                        <a href="/" class="active menu-link">Home</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">About</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="design-system.html" class="menu-link">Design System</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="blogs/sample-post.html" class="menu-link">Sample blog post</a>
+                    </li>
+                </menu>
+
+                <label for="menu-btn" class="menu-btn" aria-label="Hamburger menu button">
+                    <svg class="menu-close" viewBox="0 0 24 24" height="24">
+                        <path
+                            d="M18.984 6.422l-5.578 5.578 5.578 5.578-1.406 1.406-5.578-5.578-5.578 5.578-1.406-1.406 5.578-5.578-5.578-5.578 1.406-1.406 5.578 5.578 5.578-5.578z">
+                        </path>
+                    </svg>
+                    <svg class="menu-open" viewBox="0 0 24 24" height="24">
+                        <path d="M3 6h18v2.016h-18v-2.016zM3 12.984v-1.969h18v1.969h-18zM3 18v-2.016h18v2.016h-18z">
+                        </path>
+                    </svg>
+                </label>
+            </div>
+        </nav>
+
+        <!-- Hero  -->
+        <section class="hero column1">
+            <div class="hero-content">
+                <span class="h4">Welcome to Fur and Fables</span>
+                <h1>A World of Animal Adventure</h1>
+                <p>
+                    Discover a world of animal adventure through captivating fiction stories on Fur and Fables blog.
+                </p>
+                <input class="search-input" type="text" name="search" placeholder="Search.." aria-label="Search" />
+            </div>
+        </section>
+
+        <!-- hero slideshow -->
+        <!-- USING ANIMATION FOR AUTOMATIC SLIDESHOWS, https://www.w3.org/Style/Examples/007/slideshow.en.html -->
+        <div class="slideshow">
+            <picture>
+                <source srcset="assets/hero/xl-siddhant-rane-t4b9F4CCWLk-unsplash_wlqktu.webp"
+                    media="(min-width: 576px)" />
+                <source srcset="assets/hero/lg-siddhant-rane-t4b9F4CCWLk-unsplash_wlqktu.webp"
+                    media="(min-width: 768px)" />
+                <source srcset="assets/hero/md-siddhant-rane-t4b9F4CCWLk-unsplash_wlqktu.webp"
+                    media="(min-width: 992px)" />
+                <source srcset="assets/hero/sm-siddhant-rane-t4b9F4CCWLk-unsplash_wlqktu.webp"
+                    media="(min-width: 1200px)" />
+                <img class="img" src="assets/hero/siddhant-rane-t4b9F4CCWLk-unsplash_wlqktu.webp"
+                    alt="slideshow image one" height="200" width="200" />
+            </picture>
+            <picture>
+                <source srcset="assets/hero/xl-mike-gilling-hy1KChKIRqE-unsplash_cndiox.webp"
+                    media="(min-width: 576px)" />
+                <source srcset="assets/hero/lg-mike-gilling-hy1KChKIRqE-unsplash_cndiox.webp"
+                    media="(min-width: 768px)" />
+                <source srcset="assets/hero/md-mike-gilling-hy1KChKIRqE-unsplash_cndiox.webp"
+                    media="(min-width: 992px)" />
+                <source srcset="assets/hero/sm-mike-gilling-hy1KChKIRqE-unsplash_cndiox.webp"
+                    media="(min-width: 1200px)" />
+                <img class="img" src="assets/hero/mike-gilling-hy1KChKIRqE-unsplash_cndiox.webp"
+                    alt="slideshow image two" height="200" width="200" />
+            </picture>
+            <picture>
+                <source srcset="assets/hero/xl-oktavianus-mulyadi-vr-c93hccGM-unsplash_gv4aup.webp"
+                    media="(min-width: 576px)" />
+                <source srcset="assets/hero/lg-oktavianus-mulyadi-vr-c93hccGM-unsplash_gv4aup.webp"
+                    media="(min-width: 768px)" />
+                <source srcset="assets/hero/md-oktavianus-mulyadi-vr-c93hccGM-unsplash_gv4aup.webp"
+                    media="(min-width: 992px)" />
+                <source srcset="assets/hero/sm-oktavianus-mulyadi-vr-c93hccGM-unsplash_gv4aup.webp"
+                    media="(min-width: 1200px)" />
+                <img class="img" src="assets/hero/oktavianus-mulyadi-vr-c93hccGM-unsplash_gv4aup.webp"
+                    alt="slideshow image three" height="200" width="200" />
+            </picture>
+        </div>
+    </header>
+
+    <main>
+        <section class="container column1">
+            <h2>Articles</h2>
+            <div class="column4">
+                <div class="card short">
+                    <img class="card-image img" src="assets/1-julien-riedel-xkgyg8jYmvw-unsplash.webp" alt="The Tale of
+                            the Silver Wolf" width="125" height="82" loading="lazy" />
+                    <div class="card-content">
+                        <div class="card-summary">
+                            <span class="h4 card-category">Short Story</span>
+                            <h3>The Tale of the Silver Wolf</h3>
+                            <small class="card-date italic">August 10, 2023</small>
+                            <p>
+                                A young wolf sets out on a journey to find her place in the world, encountering
+                                unexpected friends and foes along the way.
+                            </p>
+                        </div>
+                        <div class="card-readnow">
+                            <a href="blogs/sample-post.html">
+                                <span>Read now</span>
+                                <svg viewBox="0 0 24 24" height="24">
+                                    <path
+                                        d="M10.586 6.586c-0.781 0.779-0.781 2.047 0 2.828l1.586 1.586h-7.244c-1.104 0-2 0.895-2 2s0.896 2 2 2h7.244l-1.586 1.586c-0.781 0.779-0.781 2.047 0 2.828 0.391 0.391 0.902 0.586 1.414 0.586s1.023-0.195 1.414-0.586l6.414-6.414-6.414-6.414c-0.781-0.781-2.047-0.781-2.828 0z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card flash">
+                    <div class="card-content">
+                        <div class="card-summary">
+                            <span class="h4 card-category">Flash Fiction</span>
+                            <h3>Cat and Mouse</h3>
+                            <small class="card-date italic">September 5, 2023</small>
+                            <p>
+                                A mischievous cat plays a game of cat and mouse with her mouse prey, but things take
+                                an unexpected turn.
+                            </p>
+                        </div>
+                        <div class="card-readnow">
+                            <a href="blogs/sample-post.html">
+                                <span>Read now</span>
+                                <svg viewBox="0 0 24 24" height="24">
+                                    <path
+                                        d="M10.586 6.586c-0.781 0.779-0.781 2.047 0 2.828l1.586 1.586h-7.244c-1.104 0-2 0.895-2 2s0.896 2 2 2h7.244l-1.586 1.586c-0.781 0.779-0.781 2.047 0 2.828 0.391 0.391 0.902 0.586 1.414 0.586s1.023-0.195 1.414-0.586l6.414-6.414-6.414-6.414c-0.781-0.781-2.047-0.781-2.828 0z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card creative">
+                    <div class="card-content">
+                        <div class="card-summary">
+                            <span class="h4 card-category">Creative Nonfiction</span>
+                            <h3>The Secret Life of Squirrels</h3>
+                            <small class="card-date italic">October 15, 2023</small>
+                            <p>
+                                An in-depth exploration of the fascinating and often surprising world of squirrels,
+                                from their nesting habits to their social lives.
+                            </p>
+                        </div>
+                        <div class="card-readnow">
+                            <a href="blogs/sample-post.html">
+                                <span>Read now</span>
+                                <svg viewBox="0 0 24 24" height="24">
+                                    <path
+                                        d="M10.586 6.586c-0.781 0.779-0.781 2.047 0 2.828l1.586 1.586h-7.244c-1.104 0-2 0.895-2 2s0.896 2 2 2h7.244l-1.586 1.586c-0.781 0.779-0.781 2.047 0 2.828 0.391 0.391 0.902 0.586 1.414 0.586s1.023-0.195 1.414-0.586l6.414-6.414-6.414-6.414c-0.781-0.781-2.047-0.781-2.828 0z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card short">
+                    <div class="card-content">
+                            <div class="card-summary">
+                                <span class="h4 card-category">Short Story</span>
+                                <h3>The Raven's Gift</h3>
+                                <small class="card-date italic">November 20, 2023</small>
+                                <p>
+                                    A mysterious raven arrives in a small town and brings with it a gift that changes the
+                                    lives of the townspeople forever.
+                                </p>
+                            </div>
+                        <div class="card-readnow">
+                            <a href="blogs/sample-post.html">
+                                <span>Read now</span>
+                                <svg viewBox="0 0 24 24" height="24">
+                                    <path
+                                        d="M10.586 6.586c-0.781 0.779-0.781 2.047 0 2.828l1.586 1.586h-7.244c-1.104 0-2 0.895-2 2s0.896 2 2 2h7.244l-1.586 1.586c-0.781 0.779-0.781 2.047 0 2.828 0.391 0.391 0.902 0.586 1.414 0.586s1.023-0.195 1.414-0.586l6.414-6.414-6.414-6.414c-0.781-0.781-2.047-0.781-2.828 0z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card flash">
+                    <div class="card-content">
+                            <div class="card-summary">
+                                <span class="h4 card-category">Flash Fiction</span>
+                                <h3>The Fox and the Hound</h3>
+                                <small class="card-date italic">December 10, 2023</small>
+                                <p>
+                                    A young fox and hound form an unlikely friendship that defies their natural instincts,
+                                    but can their bond withstand the challenges of the wild?
+                                </p>
+                            </div>
+                        <div class="card-readnow">
+                            <a href="blogs/sample-post.html">
+                                <span>Read now</span>
+                                <svg viewBox="0 0 24 24" height="24">
+                                    <path
+                                        d="M10.586 6.586c-0.781 0.779-0.781 2.047 0 2.828l1.586 1.586h-7.244c-1.104 0-2 0.895-2 2s0.896 2 2 2h7.244l-1.586 1.586c-0.781 0.779-0.781 2.047 0 2.828 0.391 0.391 0.902 0.586 1.414 0.586s1.023-0.195 1.414-0.586l6.414-6.414-6.414-6.414c-0.781-0.781-2.047-0.781-2.828 0z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card creative">
+                    <div class="card-content">
+                            <div class="card-summary">
+                                <span class="h4 card-category">Creative Nonfiction</span>
+                                <h3>The Rabbit's Burrow</h3>
+                                <small class="card-date italic">January 15, 2024</small>
+                                <p>
+                                    A close-up look at the intricate underground world of rabbit burrows, including their
+                                    construction, function, and inhabitants.
+                                </p>
+                            </div>
+                        <div class="card-readnow">
+                            <a href="blogs/sample-post.html">
+                                <span>Read now</span>
+                                <svg viewBox="0 0 24 24" height="24">
+                                    <path
+                                        d="M10.586 6.586c-0.781 0.779-0.781 2.047 0 2.828l1.586 1.586h-7.244c-1.104 0-2 0.895-2 2s0.896 2 2 2h7.244l-1.586 1.586c-0.781 0.779-0.781 2.047 0 2.828 0.391 0.391 0.902 0.586 1.414 0.586s1.023-0.195 1.414-0.586l6.414-6.414-6.414-6.414c-0.781-0.781-2.047-0.781-2.828 0z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card short">
+                    <div class="card-content">
+                            <div class="card-summary">
+                                <span class="h4 card-category">Short Story</span>
+                                <h3>The Owl and the Pussycat</h3>
+                                <small class="card-date italic">February 14, 2024</small>
+                                <p>
+                                    A whimsical tale of a wise owl and a curious cat who set out on a seafaring adventure in
+                                    a pea-green boat.
+                                </p>
+                            </div>
+                        <div class="card-readnow">
+                            <a href="blogs/sample-post.html">
+                                <span>Read now</span>
+                                <svg viewBox="0 0 24 24" height="24">
+                                    <path
+                                        d="M10.586 6.586c-0.781 0.779-0.781 2.047 0 2.828l1.586 1.586h-7.244c-1.104 0-2 0.895-2 2s0.896 2 2 2h7.244l-1.586 1.586c-0.781 0.779-0.781 2.047 0 2.828 0.391 0.391 0.902 0.586 1.414 0.586s1.023-0.195 1.414-0.586l6.414-6.414-6.414-6.414c-0.781-0.781-2.047-0.781-2.828 0z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card flash">
+                    <div class="card-content">
+                            <div class="card-summary">
+                                <span class="h4 card-category">Flash Fiction</span>
+                                <h3>The Adventures of a Housecat</h3>
+                                <small class="card-date italic">March 5, 2024</small>
+                                <p>
+                                    Follow the daily exploits of a pampered housecat who longs for adventure beyond her
+                                    comfortable home.
+                                </p>
+                            </div>
+                        <div class="card-readnow">
+                            <a href="blogs/sample-post.html">
+                                <span>Read now</span>
+                                <svg viewBox="0 0 24 24" height="24">
+                                    <path
+                                        d="M10.586 6.586c-0.781 0.779-0.781 2.047 0 2.828l1.586 1.586h-7.244c-1.104 0-2 0.895-2 2s0.896 2 2 2h7.244l-1.586 1.586c-0.781 0.779-0.781 2.047 0 2.828 0.391 0.391 0.902 0.586 1.414 0.586s1.023-0.195 1.414-0.586l6.414-6.414-6.414-6.414c-0.781-0.781-2.047-0.781-2.828 0z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card creative">
+                    <div class="card-content">
+                            <div class="card-summary">
+                                <span class="h4 card-category">Creative Nonfiction</span>
+                                <h3>The Ant's Tale</h3>
+                                <small class="card-date italic">April 10, 2024</small>
+                                <p>
+                                    Discover the incredible strength, resilience, and social structure of ants through the
+                                    eyes of a worker ant on a mission.
+                                </p>
+                            </div>
+                        <div class="card-readnow">
+                            <a href="blogs/sample-post.html">
+                                <span>Read now</span>
+                                <svg viewBox="0 0 24 24" height="24">
+                                    <path
+                                        d="M10.586 6.586c-0.781 0.779-0.781 2.047 0 2.828l1.586 1.586h-7.244c-1.104 0-2 0.895-2 2s0.896 2 2 2h7.244l-1.586 1.586c-0.781 0.779-0.781 2.047 0 2.828 0.391 0.391 0.902 0.586 1.414 0.586s1.023-0.195 1.414-0.586l6.414-6.414-6.414-6.414c-0.781-0.781-2.047-0.781-2.828 0z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card short">
+                    <div class="card-content">
+                            <div class="card-summary">
+                                <span class="h4 card-category">Short Story</span>
+                                <h3>The Elephant's Memory</h3>
+                                <small class="card-date italic">May 20, 2024</small>
+                                <p>
+                                    A touching story of an elderly elephant who recalls a lifetime of memories and bonds
+                                    with her keeper in her final days.
+                                </p>
+                            </div>
+                        <div class="card-readnow">
+                            <a href="blogs/sample-post.html">
+                                <span>Read now</span>
+                                <svg viewBox="0 0 24 24" height="24">
+                                    <path
+                                        d="M10.586 6.586c-0.781 0.779-0.781 2.047 0 2.828l1.586 1.586h-7.244c-1.104 0-2 0.895-2 2s0.896 2 2 2h7.244l-1.586 1.586c-0.781 0.779-0.781 2.047 0 2.828 0.391 0.391 0.902 0.586 1.414 0.586s1.023-0.195 1.414-0.586l6.414-6.414-6.414-6.414c-0.781-0.781-2.047-0.781-2.828 0z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card flash">
+                    <div class="card-content">
+                            <div class="card-summary">
+                                <span class="h4 card-category">Flash Fiction</span>
+                                <h3>The Mouse's Great Escape</h3>
+                                <small class="card-date italic">June 5, 2024</small>
+                                <p>
+                                    A daring mouse embarks on a perilous journey to escape the clutches of a menacing cat,
+                                    using all her wits and cunning.
+                                </p>
+                            </div>
+                        <div class="card-readnow">
+                            <a href="blogs/sample-post.html">
+                                <span>Read now</span>
+                                <svg viewBox="0 0 24 24" height="24">
+                                    <path
+                                        d="M10.586 6.586c-0.781 0.779-0.781 2.047 0 2.828l1.586 1.586h-7.244c-1.104 0-2 0.895-2 2s0.896 2 2 2h7.244l-1.586 1.586c-0.781 0.779-0.781 2.047 0 2.828 0.391 0.391 0.902 0.586 1.414 0.586s1.023-0.195 1.414-0.586l6.414-6.414-6.414-6.414c-0.781-0.781-2.047-0.781-2.828 0z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card creative">
+                    <img class="card-image img" src="assets/12-thomas-lipke-kkXDhAUnxYI-unsplash.webp" alt="whale's tale
+                            out of water" width="125" height="77" loading="lazy" />
+                    <div class="card-content">
+                            <div class="card-summary">
+                                <span class="h4 card-category">Creative Nonfiction</span>
+                                <h3>The Wisdom of Whales</h3>
+                                <small class="card-date italic">July 15, 2024</small>
+                                <p>
+                                    A captivating look at the mysterious and awe-inspiring world of whales, exploring their
+                                    intelligence, communication, and cultural significance.
+                                </p>
+                            </div>
+                        <div class="card-readnow">
+                            <a href="blogs/sample-post.html">
+                                <span>Read now</span>
+                                <svg viewBox="0 0 24 24" height="24">
+                                    <path
+                                        d="M10.586 6.586c-0.781 0.779-0.781 2.047 0 2.828l1.586 1.586h-7.244c-1.104 0-2 0.895-2 2s0.896 2 2 2h7.244l-1.586 1.586c-0.781 0.779-0.781 2.047 0 2.828 0.391 0.391 0.902 0.586 1.414 0.586s1.023-0.195 1.414-0.586l6.414-6.414-6.414-6.414c-0.781-0.781-2.047-0.781-2.828 0z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Navigation -->
+            <ul class="navigation">
+                <li><span class="navigation-link">1</span></li>
+                <li><a href="#" class="navigation-link">2</a></li>
+                <li><a href="#" class="navigation-link">3</a></li>
+                <li><span class="navigation-link">...</span></li>
+                <li><a href="#" class="navigation-link">10</a></li>
+                <li><a href="#" class="navigation-link">Next ></a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <section class="column1">
+            <h2>Fur and Fables</h2>
+            <div class="column2">
+                <div class="contact">
+                    <h3>Follow us</h3>
+                    <ul class="navigation">
+                        <li>
+                            <a href="#" class="navigation-link" aria-label="facebook">
+                                <svg viewBox="0 0 16 28" height="28">
+                                    <path
+                                        d="M14.984 0.187v4.125h-2.453c-1.922 0-2.281 0.922-2.281 2.25v2.953h4.578l-0.609 4.625h-3.969v11.859h-4.781v-11.859h-3.984v-4.625h3.984v-3.406c0-3.953 2.422-6.109 5.953-6.109 1.687 0 3.141 0.125 3.563 0.187z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="navigation-link" aria-label="twitter">
+                                <svg viewBox="0 0 26 28" height="28">
+                                    <path
+                                        d="M25.312 6.375c-0.688 1-1.547 1.891-2.531 2.609 0.016 0.219 0.016 0.438 0.016 0.656 0 6.672-5.078 14.359-14.359 14.359-2.859 0-5.516-0.828-7.75-2.266 0.406 0.047 0.797 0.063 1.219 0.063 2.359 0 4.531-0.797 6.266-2.156-2.219-0.047-4.078-1.5-4.719-3.5 0.313 0.047 0.625 0.078 0.953 0.078 0.453 0 0.906-0.063 1.328-0.172-2.312-0.469-4.047-2.5-4.047-4.953v-0.063c0.672 0.375 1.453 0.609 2.281 0.641-1.359-0.906-2.25-2.453-2.25-4.203 0-0.938 0.25-1.797 0.688-2.547 2.484 3.062 6.219 5.063 10.406 5.281-0.078-0.375-0.125-0.766-0.125-1.156 0-2.781 2.25-5.047 5.047-5.047 1.453 0 2.766 0.609 3.687 1.594 1.141-0.219 2.234-0.641 3.203-1.219-0.375 1.172-1.172 2.156-2.219 2.781 1.016-0.109 2-0.391 2.906-0.781z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="navigation-link" aria-label="instagram">
+                                <svg viewBox="0 0 24 28" height="28">
+                                    <path
+                                        d="M16 14c0-2.203-1.797-4-4-4s-4 1.797-4 4 1.797 4 4 4 4-1.797 4-4zM18.156 14c0 3.406-2.75 6.156-6.156 6.156s-6.156-2.75-6.156-6.156 2.75-6.156 6.156-6.156 6.156 2.75 6.156 6.156zM19.844 7.594c0 0.797-0.641 1.437-1.437 1.437s-1.437-0.641-1.437-1.437 0.641-1.437 1.437-1.437 1.437 0.641 1.437 1.437zM12 4.156c-1.75 0-5.5-0.141-7.078 0.484-0.547 0.219-0.953 0.484-1.375 0.906s-0.688 0.828-0.906 1.375c-0.625 1.578-0.484 5.328-0.484 7.078s-0.141 5.5 0.484 7.078c0.219 0.547 0.484 0.953 0.906 1.375s0.828 0.688 1.375 0.906c1.578 0.625 5.328 0.484 7.078 0.484s5.5 0.141 7.078-0.484c0.547-0.219 0.953-0.484 1.375-0.906s0.688-0.828 0.906-1.375c0.625-1.578 0.484-5.328 0.484-7.078s0.141-5.5-0.484-7.078c-0.219-0.547-0.484-0.953-0.906-1.375s-0.828-0.688-1.375-0.906c-1.578-0.625-5.328-0.484-7.078-0.484zM24 14c0 1.656 0.016 3.297-0.078 4.953-0.094 1.922-0.531 3.625-1.937 5.031s-3.109 1.844-5.031 1.937c-1.656 0.094-3.297 0.078-4.953 0.078s-3.297 0.016-4.953-0.078c-1.922-0.094-3.625-0.531-5.031-1.937s-1.844-3.109-1.937-5.031c-0.094-1.656-0.078-3.297-0.078-4.953s-0.016-3.297 0.078-4.953c0.094-1.922 0.531-3.625 1.937-5.031s3.109-1.844 5.031-1.937c1.656-0.094 3.297-0.078 4.953-0.078s3.297-0.016 4.953 0.078c1.922 0.094 3.625 0.531 5.031 1.937s1.844 3.109 1.937 5.031c0.094 1.656 0.078 3.297 0.078 4.953z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="navigation-link" aria-label="email">
+                                <svg viewBox="0 0 28 28" height="28">
+                                    <path
+                                        d="M28 11.094v12.406c0 1.375-1.125 2.5-2.5 2.5h-23c-1.375 0-2.5-1.125-2.5-2.5v-12.406c0.469 0.516 1 0.969 1.578 1.359 2.594 1.766 5.219 3.531 7.766 5.391 1.313 0.969 2.938 2.156 4.641 2.156h0.031c1.703 0 3.328-1.188 4.641-2.156 2.547-1.844 5.172-3.625 7.781-5.391 0.562-0.391 1.094-0.844 1.563-1.359zM28 6.5c0 1.75-1.297 3.328-2.672 4.281-2.438 1.687-4.891 3.375-7.313 5.078-1.016 0.703-2.734 2.141-4 2.141h-0.031c-1.266 0-2.984-1.437-4-2.141-2.422-1.703-4.875-3.391-7.297-5.078-1.109-0.75-2.688-2.516-2.688-3.938 0-1.531 0.828-2.844 2.5-2.844h23c1.359 0 2.5 1.125 2.5 2.5z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <form action="" class="form">
+                    <div class="form-container">
+                        <h3>Join Our Community</h3>
+                        <p>Be the first to hear about new products & promotions!</p>
+                    </div>
+                    <div class="form-container">
+                        <input class="input" type="text" placeholder="Name" aria-label="Name" name="name" required />
+                    </div>
+                    <div class="form-container">
+                        <input class="input" type="email" placeholder="Email adress" aria-label="Emaili address"
+                            name="mail" required />
+                    </div>
+                    <div class="form-container">
+                        <input class="button" type="submit" value="Subscribe" />
+                    </div>
+                </form>
+            </div>
+            <small class="copyright">Copyright © 2023 Fur and Fables, developed by K. Kpadenou.</small>
+        </section>
+    </footer>
+</body>
+
+</html>
+
