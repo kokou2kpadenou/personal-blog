@@ -1,0 +1,17 @@
+.column1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--spacing-xl) var(--spacing-md);
+}
+
+@media (min-width: 992px) {
+    .column2 {
+        display: flex;
+    }
+
+    .column2 > * {
+        flex: 0 1 50%;
+    }
+}
+
+
