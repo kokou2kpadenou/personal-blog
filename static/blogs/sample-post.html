@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Fur and Fables - Personal Blog | The Tale of the Silver Wolf</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+            name="description"
+            content="Welcome to Fur and Fables, a blog dedicated to exploring the fascinating and
+            fantastical world of animals through the art of fiction."
+        />
+        <link href="/css/blogpost.css" rel="stylesheet" />
+        <link rel="icon" type="image/png" href="/favicon16x16.png" sizes="16x16" />
+        <link rel="icon" type="image/png" href="/favicon32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="/favicon96x96.png" sizes="96x96" />
+    </head>
+
+    <body class="page-layout">
+        <header>
+            <nav id="navbar" class="navbar column1">
+                <a class="h4" href="/" aria-label="Go to homepage"> Fur and Fables </a>
+                <div class="navbar-left">
+                    <input type="checkbox" name="menu-btn" id="menu-btn" class="menu-checkbox" />
+
+                    <menu class="menu">
+                        <li class="menu-item">
+                            <a href="/" class="menu-link">Home</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">About</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="../design-system.html" class="menu-link">Design System</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="sample-post.html" class="menu-link active">Sample blog post</a>
+                        </li>
+                    </menu>
+
+                    <label for="menu-btn" class="menu-btn" aria-label="Hamburger menu button">
+                        <svg class="menu-close" viewBox="0 0 24 24" height="24">
+                            <path
+                                d="M18.984 6.422l-5.578 5.578 5.578 5.578-1.406 1.406-5.578-5.578-5.578 5.578-1.406-1.406 5.578-5.578-5.578-5.578 1.406-1.406 5.578 5.578 5.578-5.578z"
+                            ></path>
+                        </svg>
+                        <svg class="menu-open" viewBox="0 0 24 24" height="24">
+                            <path
+                                d="M3 6h18v2.016h-18v-2.016zM3 12.984v-1.969h18v1.969h-18zM3 18v-2.016h18v2.016h-18z"
+                            ></path>
+                        </svg>
+                    </label>
+                </div>
+            </nav>
+
+            <!-- Hero  -->
+            <section class="hero column1">
+                <div class="hero-content">
+                    <span class="h4">Short Story</span>
+                    <h1>The Tale of the Silver Wolf</h1>
+                    <!-- add author avatar -->
+                    <img src="/assets/img_avatar.webp" alt="Author avatar" class="avatar" width="4.99" height="4.98" />
+                    <div class="text">Emily Brown</div>
+                    <small class="italic">Creative Writer - Freelance</small>
+                    <br /><br />
+                    <small
+                        >Emily is a passionate creative writer with a love for animals and nature. She enjoys weaving
+                        stories that inspire and delight her readers, drawing on her background in literature and her
+                        own experiences in the great outdoors. When she's not writing, Emily can be found hiking,
+                        camping, or snuggling up with her pets at home.</small
+                    >
+                </div>
+            </section>
+
+            <!-- hero background image -->
+            <div class="bg-image">
+                <picture>
+                    <source
+                        srcset="../assets/hero/xl-julien-riedel-xkgyg8jYmvw-unsplash_fm6x0b.webp"
+                        media="(min-width: 576px)"
+                    />
+                    <source
+                        srcset="../assets/hero/lg-julien-riedel-xkgyg8jYmvw-unsplash_fm6x0b.webp"
+                        media="(min-width: 768px)"
+                    />
+                    <source
+                        srcset="../assets/hero/md-julien-riedel-xkgyg8jYmvw-unsplash_fm6x0b.webp"
+                        media="(min-width: 992px)"
+                    />
+                    <source
+                        srcset="../assets/hero/sm-julien-riedel-xkgyg8jYmvw-unsplash_fm6x0b.webp"
+                        media="(min-width: 1200px)"
+                    />
+                    <img
+                        class="img"
+                        src="../assets/hero/julien-riedel-xkgyg8jYmvw-unsplash_fm6x0b.webp"
+                        alt="background image"
+                        height="200"
+                        width="200"
+                    />
+                </picture>
+            </div>
+        </header>
+
+        <!-- main with the content of the post -->
+        <main>
+            <article>
+                <small>August 10, 2023 - 0 Comments</small>
+                <div class="share h4">
+                    <span>Share:</span>
+                    <ul class="navigation">
+                        <li>
+                            <a href="#" class="navigation-link" aria-label="facebook">
+                                <svg viewBox="0 0 16 28" height="28">
+                                    <path
+                                        d="M14.984 0.187v4.125h-2.453c-1.922 0-2.281 0.922-2.281 2.25v2.953h4.578l-0.609 4.625h-3.969v11.859h-4.781v-11.859h-3.984v-4.625h3.984v-3.406c0-3.953 2.422-6.109 5.953-6.109 1.687 0 3.141 0.125 3.563 0.187z"
+                                    ></path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="navigation-link" aria-label="twitter">
+                                <svg viewBox="0 0 26 28" height="28">
+                                    <path
+                                        d="M25.312 6.375c-0.688 1-1.547 1.891-2.531 2.609 0.016 0.219 0.016 0.438 0.016 0.656 0 6.672-5.078 14.359-14.359 14.359-2.859 0-5.516-0.828-7.75-2.266 0.406 0.047 0.797 0.063 1.219 0.063 2.359 0 4.531-0.797 6.266-2.156-2.219-0.047-4.078-1.5-4.719-3.5 0.313 0.047 0.625 0.078 0.953 0.078 0.453 0 0.906-0.063 1.328-0.172-2.312-0.469-4.047-2.5-4.047-4.953v-0.063c0.672 0.375 1.453 0.609 2.281 0.641-1.359-0.906-2.25-2.453-2.25-4.203 0-0.938 0.25-1.797 0.688-2.547 2.484 3.062 6.219 5.063 10.406 5.281-0.078-0.375-0.125-0.766-0.125-1.156 0-2.781 2.25-5.047 5.047-5.047 1.453 0 2.766 0.609 3.687 1.594 1.141-0.219 2.234-0.641 3.203-1.219-0.375 1.172-1.172 2.156-2.219 2.781 1.016-0.109 2-0.391 2.906-0.781z"
+                                    ></path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="navigation-link" aria-label="linkedin">
+                                <svg viewBox="0 0 24 28" height="28">
+                                    <path
+                                        d="M3.703 22.094h3.609v-10.844h-3.609v10.844zM7.547 7.906c-0.016-1.062-0.781-1.875-2.016-1.875s-2.047 0.812-2.047 1.875c0 1.031 0.781 1.875 2 1.875h0.016c1.266 0 2.047-0.844 2.047-1.875zM16.688 22.094h3.609v-6.219c0-3.328-1.781-4.875-4.156-4.875-1.937 0-2.797 1.078-3.266 1.828h0.031v-1.578h-3.609s0.047 1.016 0 10.844v0h3.609v-6.062c0-0.313 0.016-0.641 0.109-0.875 0.266-0.641 0.859-1.313 1.859-1.313 1.297 0 1.813 0.984 1.813 2.453v5.797zM24 6.5v15c0 2.484-2.016 4.5-4.5 4.5h-15c-2.484 0-4.5-2.016-4.5-4.5v-15c0-2.484 2.016-4.5 4.5-4.5h15c2.484 0 4.5 2.016 4.5 4.5z"
+                                    ></path>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <p class="p-first-letter">
+                    Once upon a time, in a faraway land, there lived a majestic silver wolf. The wolf was known
+                    throughout the kingdom for its beauty, strength, and intelligence. The people of the kingdom would
+                    often gather around the wolf to listen to its stories and bask in its wisdom. The wolf was revered
+                    and respected by all who knew it. Once upon a time, in a faraway land, there lived a majestic silver
+                    wolf. The wolf was known throughout the kingdom for its beauty, strength, and intelligence. The
+                    people of the kingdom would often gather around the wolf to listen to its stories and bask in its
+                    wisdom. The wolf was revered and respected by all who knew it.
+                </p>
+
+                <figure class="image-caption">
+                    <img
+                        class="img"
+                        src="../assets/darren-welsh-zBU8dMscx4M-unsplash.webp"
+                        alt="Photo by Darren Welsh on Unsplash"
+                        height="533"
+                        width="800"
+                        loading="lazy"
+                    />
+                    <figcaption>Fig.1 - Photo by Darren Welsh on Unsplash.</figcaption>
+                </figure>
+
+                <h2>The Wolf's Early Days</h2>
+                <p>
+                    The silver wolf was born in a pack deep in the forest. From an early age, it showed an uncommon
+                    intelligence and strength. It quickly rose through the ranks of the pack and became the leader of
+                    its own pack at a very young age. The wolf was different from other wolves in many ways. It had a
+                    silver coat that shone brightly in the moonlight, and its eyes were a piercing blue color.
+                </p>
+                <p>
+                    The wolf's leadership style was also unique. It led its pack with a combination of strength,
+                    intelligence, and compassion. It was always fair to its pack members, and it never hesitated to
+                    stand up for what was right. The wolf was respected by its pack and admired by other animals in the
+                    forest.
+                </p>
+                <h3>The Wolf's Journey of Self-Discovery</h3>
+                <p>
+                    As the silver wolf grew up, it began to feel like it didn't quite fit in with the other wolves in
+                    its pack. While the other wolves were content to hunt and sleep, the silver wolf was always curious
+                    about the world beyond the forest.
+                </p>
+
+                <p>
+                    One day, the silver wolf decided to leave its pack and strike out on its own. It wanted to see what
+                    lay beyond the forest and to discover its true purpose in life.
+                </p>
+
+                <p>
+                    The wolf's journey was long and challenging. It faced many dangers and obstacles along the way, but
+                    it never gave up. The wolf learned to rely on its intelligence and strength to survive, and it
+                    discovered that it was capable of much more than it had ever imagined.
+                </p>
+                <h3>The Wolf's Lessons in Understanding and Empathy</h3>
+
+                <p>
+                    At first, the people of the village were wary of the silver wolf, afraid of its strength and wild
+                    nature. But as the wolf began to visit the village more often, it began to learn about the people's
+                    way of life and their needs.
+                </p>
+
+                <p>
+                    The wolf saw firsthand the struggles and challenges that the villagers faced, and it began to
+                    develop a deep understanding of their lives. It also saw the kindness and generosity of the
+                    villagers, and it was touched by their willingness to share what they had with a stranger.
+                </p>
+
+                <p>
+                    Through this process of understanding, the silver wolf developed a strong sense of empathy. It began
+                    to see the world through the villagers' eyes and to feel their struggles as if they were its own.
+                </p>
+                <h2>The Wolf and the Village</h2>
+                <p>
+                    One day, the silver wolf stumbled upon a village on the edge of the forest. The people of the
+                    village were frightened of the wolf at first, but they soon came to realize that it was not a
+                    threat. The wolf began to visit the village regularly, and the people of the village would offer it
+                    food and listen to its stories.
+                </p>
+
+                <ol class="ol">
+                    <li>The silver wolf led the hunt, inspiring the rest of the pack with his determination.</li>
+                    <li>
+                        The pack worked together to bring down the deer, using their own unique skills to aid in the
+                        hunt.
+                    </li>
+                </ol>
+
+                <p>
+                    The wolf became a beloved figure in the village, and the people came to depend on it for protection
+                    from outside threats. The wolf was always willing to defend the village, and it did so with great
+                    courage and skill.
+                </p>
+
+                <ul class="ul">
+                    <li>The bear was taken aback by the silver wolf's bravery.</li>
+                    <li>The silver wolf circled around the bear, looking for an opening.</li>
+                </ul>
+
+                <p>
+                    The wolf became known as a wise and just protector, and its influence grew beyond the village.
+                    People from all over the kingdom came to seek its counsel, and the wolf became a respected and
+                    revered figure throughout the land.
+                </p>
+
+                <figure class="image-caption">
+                    <img
+                        class="img"
+                        src="../assets/thomas-bonometti-dtfyRuKG7UY-unsplash.webp"
+                        alt="Photo by Thomas Bonometti on
+                            Unsplash"
+                        height="533"
+                        width="800"
+                        loading="lazy"
+                    />
+                    <figcaption>Fig.2 - Photo by Thomas Bonometti on Unsplash.</figcaption>
+                </figure>
+
+                <h2>The Legacy of the Silver Wolf</h2>
+                <p>
+                    As the years passed, the silver wolf grew old and its strength began to fade. But its legacy lived
+                    on. The wolf had taught its pack and the people of the village about leadership, courage, and
+                    compassion. Its teachings had spread throughout the kingdom, and its influence continued to shape
+                    the land long after its passing.
+                </p>
+
+                <figure class="quote">
+                    <blockquote cite="https://www.huxley.net/bnw/four.html">
+                        <p>The silver wolf was a legend, a creature of beauty and power, feared by all who knew him.</p>
+                    </blockquote>
+                    <figcaption>—Samy Joe, <cite>Brave New World</cite></figcaption>
+                </figure>
+
+                <p>
+                    As one of the villagers said: "The silver wolf was more than just an animal. It was a teacher, a
+                    leader, and a friend. Its legacy will live on forever."
+                </p>
+                <h2>Conclusion</h2>
+                <p>
+                    The tale of the silver wolf is a powerful reminder of the impact that one individual can have on the
+                    world. The wolf's leadership style, courage, and compassion made it a beloved figure in the kingdom
+                    and its legacy lives on long after its passing. As we go through life, we should strive to be like
+                    the silver wolf - to lead with strength and intelligence, to defend what is right, and to leave a
+                    lasting positive impact on the world.
+                </p>
+            </article>
+        </main>
+
+        <!-- aside -->
+        <aside>
+            <div class="aside-content">
+                <h3>Search</h3>
+                <input
+                    class="search-input-noanimation"
+                    type="text"
+                    name="search"
+                    placeholder="Search.."
+                    aria-label="Search"
+                />
+
+                <div class="recent-posts">
+                    <h3>Recent Posts</h3>
+                    <div class="card short">
+                        <div class="card-content">
+                            <div class="card-summary">
+                                <span class="h4 card-category">Short Story</span>
+                                <h3>The Elephant's Memory</h3>
+                                <small class="card-date">May 20, 2024</small>
+                            </div>
+                            <div class="card-readnow">
+                                <a href="sample-post.html">
+                                    <span>Read now</span>
+                                    <svg viewBox="0 0 24 24" height="24">
+                                        <path
+                                            d="M10.586 6.586c-0.781 0.779-0.781 2.047 0 2.828l1.586 1.586h-7.244c-1.104 0-2 0.895-2 2s0.896 2 2 2h7.244l-1.586 1.586c-0.781 0.779-0.781 2.047 0 2.828 0.391 0.391 0.902 0.586 1.414 0.586s1.023-0.195 1.414-0.586l6.414-6.414-6.414-6.414c-0.781-0.781-2.047-0.781-2.828 0z"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card flash">
+                        <div class="card-content">
+                            <div class="card-summary">
+                                <span class="h4 card-category">Flash Fiction</span>
+                                <h3>The Mouse's Great Escape</h3>
+                                <small class="card-date">June 5, 2024</small>
+                            </div>
+                            <div class="card-readnow">
+                                <a href="sample-post.html">
+                                    <span>Read now</span>
+                                    <svg viewBox="0 0 24 24" height="24">
+                                        <path
+                                            d="M10.586 6.586c-0.781 0.779-0.781 2.047 0 2.828l1.586 1.586h-7.244c-1.104 0-2 0.895-2 2s0.896 2 2 2h7.244l-1.586 1.586c-0.781 0.779-0.781 2.047 0 2.828 0.391 0.391 0.902 0.586 1.414 0.586s1.023-0.195 1.414-0.586l6.414-6.414-6.414-6.414c-0.781-0.781-2.047-0.781-2.828 0z"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card creative">
+                        <div class="card-content">
+                            <div class="card-summary">
+                                <span class="h4 card-category">Creative Nonfiction</span>
+                                <h3>The Wisdom of Whales</h3>
+                                <small class="card-date">July 15, 2024</small>
+                            </div>
+                            <div class="card-readnow">
+                                <a href="sample-post.html">
+                                    <span>Read now</span>
+                                    <svg viewBox="0 0 24 24" height="24">
+                                        <path
+                                            d="M10.586 6.586c-0.781 0.779-0.781 2.047 0 2.828l1.586 1.586h-7.244c-1.104 0-2 0.895-2 2s0.896 2 2 2h7.244l-1.586 1.586c-0.781 0.779-0.781 2.047 0 2.828 0.391 0.391 0.902 0.586 1.414 0.586s1.023-0.195 1.414-0.586l6.414-6.414-6.414-6.414c-0.781-0.781-2.047-0.781-2.828 0z"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- </div> -->
+        </aside>
+        <!-- </div> -->
+
+        <footer>
+            <section class="column1">
+                <h2>Fur and Fables</h2>
+                <div class="column2">
+                    <div class="contact">
+                        <h3>Follow us</h3>
+                        <ul class="navigation">
+                            <li>
+                                <a href="#" class="navigation-link" aria-label="facebook">
+                                    <svg viewBox="0 0 16 28" height="28">
+                                        <path
+                                            d="M14.984 0.187v4.125h-2.453c-1.922 0-2.281 0.922-2.281 2.25v2.953h4.578l-0.609 4.625h-3.969v11.859h-4.781v-11.859h-3.984v-4.625h3.984v-3.406c0-3.953 2.422-6.109 5.953-6.109 1.687 0 3.141 0.125 3.563 0.187z"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="navigation-link" aria-label="twitter">
+                                    <svg viewBox="0 0 26 28" height="28">
+                                        <path
+                                            d="M25.312 6.375c-0.688 1-1.547 1.891-2.531 2.609 0.016 0.219 0.016 0.438 0.016 0.656 0 6.672-5.078 14.359-14.359 14.359-2.859 0-5.516-0.828-7.75-2.266 0.406 0.047 0.797 0.063 1.219 0.063 2.359 0 4.531-0.797 6.266-2.156-2.219-0.047-4.078-1.5-4.719-3.5 0.313 0.047 0.625 0.078 0.953 0.078 0.453 0 0.906-0.063 1.328-0.172-2.312-0.469-4.047-2.5-4.047-4.953v-0.063c0.672 0.375 1.453 0.609 2.281 0.641-1.359-0.906-2.25-2.453-2.25-4.203 0-0.938 0.25-1.797 0.688-2.547 2.484 3.062 6.219 5.063 10.406 5.281-0.078-0.375-0.125-0.766-0.125-1.156 0-2.781 2.25-5.047 5.047-5.047 1.453 0 2.766 0.609 3.687 1.594 1.141-0.219 2.234-0.641 3.203-1.219-0.375 1.172-1.172 2.156-2.219 2.781 1.016-0.109 2-0.391 2.906-0.781z"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="navigation-link" aria-label="instagram">
+                                    <svg viewBox="0 0 24 28" height="28">
+                                        <path
+                                            d="M16 14c0-2.203-1.797-4-4-4s-4 1.797-4 4 1.797 4 4 4 4-1.797 4-4zM18.156 14c0 3.406-2.75 6.156-6.156 6.156s-6.156-2.75-6.156-6.156 2.75-6.156 6.156-6.156 6.156 2.75 6.156 6.156zM19.844 7.594c0 0.797-0.641 1.437-1.437 1.437s-1.437-0.641-1.437-1.437 0.641-1.437 1.437-1.437 1.437 0.641 1.437 1.437zM12 4.156c-1.75 0-5.5-0.141-7.078 0.484-0.547 0.219-0.953 0.484-1.375 0.906s-0.688 0.828-0.906 1.375c-0.625 1.578-0.484 5.328-0.484 7.078s-0.141 5.5 0.484 7.078c0.219 0.547 0.484 0.953 0.906 1.375s0.828 0.688 1.375 0.906c1.578 0.625 5.328 0.484 7.078 0.484s5.5 0.141 7.078-0.484c0.547-0.219 0.953-0.484 1.375-0.906s0.688-0.828 0.906-1.375c0.625-1.578 0.484-5.328 0.484-7.078s0.141-5.5-0.484-7.078c-0.219-0.547-0.484-0.953-0.906-1.375s-0.828-0.688-1.375-0.906c-1.578-0.625-5.328-0.484-7.078-0.484zM24 14c0 1.656 0.016 3.297-0.078 4.953-0.094 1.922-0.531 3.625-1.937 5.031s-3.109 1.844-5.031 1.937c-1.656 0.094-3.297 0.078-4.953 0.078s-3.297 0.016-4.953-0.078c-1.922-0.094-3.625-0.531-5.031-1.937s-1.844-3.109-1.937-5.031c-0.094-1.656-0.078-3.297-0.078-4.953s-0.016-3.297 0.078-4.953c0.094-1.922 0.531-3.625 1.937-5.031s3.109-1.844 5.031-1.937c1.656-0.094 3.297-0.078 4.953-0.078s3.297-0.016 4.953 0.078c1.922 0.094 3.625 0.531 5.031 1.937s1.844 3.109 1.937 5.031c0.094 1.656 0.078 3.297 0.078 4.953z"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="navigation-link" aria-label="email">
+                                    <svg viewBox="0 0 28 28" height="28">
+                                        <path
+                                            d="M28 11.094v12.406c0 1.375-1.125 2.5-2.5 2.5h-23c-1.375 0-2.5-1.125-2.5-2.5v-12.406c0.469 0.516 1 0.969 1.578 1.359 2.594 1.766 5.219 3.531 7.766 5.391 1.313 0.969 2.938 2.156 4.641 2.156h0.031c1.703 0 3.328-1.188 4.641-2.156 2.547-1.844 5.172-3.625 7.781-5.391 0.562-0.391 1.094-0.844 1.563-1.359zM28 6.5c0 1.75-1.297 3.328-2.672 4.281-2.438 1.687-4.891 3.375-7.313 5.078-1.016 0.703-2.734 2.141-4 2.141h-0.031c-1.266 0-2.984-1.437-4-2.141-2.422-1.703-4.875-3.391-7.297-5.078-1.109-0.75-2.688-2.516-2.688-3.938 0-1.531 0.828-2.844 2.5-2.844h23c1.359 0 2.5 1.125 2.5 2.5z"
+                                        ></path>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <form action="" class="form">
+                        <div class="form-container">
+                            <h3>Join Our Community</h3>
+                            <p>Be the first to hear about us!</p>
+                        </div>
+                        <div class="form-container">
+                            <input
+                                class="input"
+                                type="text"
+                                placeholder="Name"
+                                aria-label="Name"
+                                name="name"
+                                required
+                            />
+                        </div>
+                        <div class="form-container">
+                            <input
+                                class="input"
+                                type="email"
+                                placeholder="Email adress"
+                                aria-label="Emaili address"
+                                name="mail"
+                                required
+                            />
+                        </div>
+                        <div class="form-container">
+                            <input class="button" type="submit" value="Subscribe" />
+                        </div>
+                    </form>
+                </div>
+                <small class="copyright">Copyright © 2023 Fur and Fables, developed by K. Kpadenou.</small>
+            </section>
+        </footer>
+    </body>
+</html>
+
