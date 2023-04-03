@@ -89,7 +89,7 @@ ol {
     list-style: none;
 }
 
-.ul li::before {
+.ul-li::before {
     content: "•";
     color: var(--clr-secondary-600);
     display: inline-block;
@@ -102,7 +102,7 @@ ol {
     counter-reset: li;
 }
 
-.ol li::before {
+.ol-li::before {
     content: counter(li) ".";
     color: var(--clr-secondary-600);
     display: inline-block;
@@ -110,7 +110,7 @@ ol {
     margin-left: -1em;
 }
 
-.ol li {
+.ol-li {
     counter-increment: li;
 }
 
@@ -138,6 +138,6 @@ a:focus {
     border-left: 4px solid var(--clr-secondary-600);
 }
 
-.image-caption figcaption {
+.figcaption {
     margin-top: 8px;
 }

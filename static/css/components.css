@@ -377,7 +377,7 @@ svg {
 }
 
 .slideshow img,
-.bg-image img {
+.bg-image .img {
     height: 100%;
 }
 
