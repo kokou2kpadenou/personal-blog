@@ -271,7 +271,6 @@ svg {
     padding: var(--spacing-sm);
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(auto-fill, min-content) 1fr;
     gap: 0;
 }
 
@@ -291,6 +290,7 @@ svg {
     display: inline-flex;
     align-items: flex-end;
 }
+
 .card-readnow a {
     display: inline-flex;
     align-items: center;
@@ -322,7 +322,6 @@ svg {
     .card-image {
         height: 12em;
     }
-
 }
 
 @media (min-width: 768px) {
@@ -407,10 +406,11 @@ svg {
 .slideshow > *:nth-child(1) {
     animation-delay: 0s;
 }
+
 .slideshow > *:nth-child(2) {
     animation-delay: 4s;
 }
+
 .slideshow > *:nth-child(3) {
     animation-delay: 8s;
 }
-

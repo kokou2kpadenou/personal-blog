@@ -3,7 +3,6 @@
 @import url(./layouts.css);
 @import url(./components.css);
 
-
 .recent-posts {
     margin: var(--spacing-md) 0 0 0;
 }
@@ -56,5 +55,3 @@ footer {
         padding: var(--spacing-sm);
     }
 }
-
-

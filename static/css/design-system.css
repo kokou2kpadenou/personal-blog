@@ -3,7 +3,6 @@
 @import url(./layouts.css);
 @import url(./components.css);
 
-
 /* list of colors - design system */
 .primary,
 .secondary,
@@ -33,27 +32,35 @@
 .primary-li:nth-of-type(1)::after {
     background-color: var(--clr-primary-100);
 }
+
 .primary-li:nth-of-type(2)::after {
     background-color: var(--clr-primary-200);
 }
+
 .primary-li:nth-of-type(3)::after {
     background-color: var(--clr-primary-300);
 }
+
 .primary-li:nth-of-type(4)::after {
     background-color: var(--clr-primary-400);
 }
+
 .primary-li:nth-of-type(5)::after {
     background-color: var(--clr-primary-500);
 }
+
 .primary-li:nth-of-type(6)::after {
     background-color: var(--clr-primary-600);
 }
+
 .primary-li:nth-of-type(7)::after {
     background-color: var(--clr-primary-700);
 }
+
 .primary-li:nth-of-type(8)::after {
     background-color: var(--clr-primary-800);
 }
+
 .primary-li:nth-of-type(9)::after {
     background-color: var(--clr-primary-900);
 }
@@ -61,27 +68,35 @@
 .secondary-li:nth-of-type(1)::after {
     background-color: var(--clr-secondary-100);
 }
+
 .secondary-li:nth-of-type(2)::after {
     background-color: var(--clr-secondary-200);
 }
+
 .secondary-li:nth-of-type(3)::after {
     background-color: var(--clr-secondary-300);
 }
+
 .secondary-li:nth-of-type(4)::after {
     background-color: var(--clr-secondary-400);
 }
+
 .secondary-li:nth-of-type(5)::after {
     background-color: var(--clr-secondary-500);
 }
+
 .secondary-li:nth-of-type(6)::after {
     background-color: var(--clr-secondary-600);
 }
+
 .secondary-li:nth-of-type(7)::after {
     background-color: var(--clr-secondary-700);
 }
+
 .secondary-li:nth-of-type(8)::after {
     background-color: var(--clr-secondary-800);
 }
+
 .secondary-li:nth-of-type(9)::after {
     background-color: var(--clr-secondary-900);
 }
@@ -89,30 +104,39 @@
 .grey-li:nth-of-type(1)::after {
     background-color: var(--clr-grey-50);
 }
+
 .grey-li:nth-of-type(2)::after {
     background-color: var(--clr-grey-100);
 }
+
 .grey-li:nth-of-type(3)::after {
     background-color: var(--clr-grey-200);
 }
+
 .grey-li:nth-of-type(4)::after {
     background-color: var(--clr-grey-300);
 }
+
 .grey-li:nth-of-type(5)::after {
     background-color: var(--clr-grey-400);
 }
+
 .grey-li:nth-of-type(6)::after {
     background-color: var(--clr-grey-500);
 }
+
 .grey-li:nth-of-type(7)::after {
     background-color: var(--clr-grey-600);
 }
+
 .grey-li:nth-of-type(8)::after {
     background-color: var(--clr-grey-700);
 }
+
 .grey-li:nth-of-type(9)::after {
     background-color: var(--clr-grey-800);
 }
+
 .grey-li:nth-of-type(10)::after {
     background-color: var(--clr-grey-900);
 }
@@ -124,4 +148,3 @@
     height: 50vh;
     background-color: rgba(0, 0, 0, 0.4);
 }
-
