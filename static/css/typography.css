@@ -1,0 +1,140 @@
+/* Text */
+body {
+    font-family: var(--ff-body);
+    font-size: var(--fs-400);
+    font-weight: 400;
+}
+
+p {
+    margin: 0 0 var(--spacing-xs) 0;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: var(--ff-headings);
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: var(--fs-xl);
+    margin: 0 0 var(--spacing-lg) 0;
+}
+
+h2 {
+    font-size: var(--fs-600);
+    margin: 0 0 var(--spacing-md) 0;
+}
+
+h3 {
+    font-size: var(--fs-500);
+    margin: 0 0 var(--spacing-sm) 0;
+}
+
+h4,
+.h4 {
+    font-size: var(--fs-400);
+    margin: 0 0 var(--spacing-xs) 0;
+    display: inline-block;
+    font-weight: 900;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.capitalized {
+    text-transform: capitalize;
+}
+
+.text {
+    margin: 0;
+}
+
+.p-first-letter::first-letter {
+    color: white;
+    background-color: var(--clr-primary-600);
+    box-shadow: 3px 3px 0 var(--clr-secondary-600);
+    font-size: 280%;
+    padding: 2px 6px;
+    margin-right: var(--spacing-sm);
+    float: left;
+}
+
+small,
+.text-small {
+    font-size: var(--fs-sm);
+}
+
+/* Lists (Ordered and Unordered) */
+ul,
+ol {
+    line-height: 1.6;
+}
+
+.ul {
+    list-style: none;
+}
+
+.ul li::before {
+    content: "•";
+    color: var(--clr-secondary-600);
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.ol {
+    list-style: none;
+    counter-reset: li;
+}
+
+.ol li::before {
+    content: counter(li) ".";
+    color: var(--clr-secondary-600);
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.ol li {
+    counter-increment: li;
+}
+
+/* Anchor */
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: currentColor;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: var(--clr-secondary-500);
+}
+
+/* Quotation */
+.quote {
+    background-color: var(--clr-grey-100);
+    padding: var(--spacing-md);
+    margin: var(--spacing-lg) 0;
+    border-left: 4px solid var(--clr-secondary-600);
+}
+
