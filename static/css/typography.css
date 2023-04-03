@@ -138,3 +138,6 @@ a:focus {
     border-left: 4px solid var(--clr-secondary-600);
 }
 
+.image-caption figcaption {
+    margin-top: 8px;
+}
