@@ -44,24 +44,19 @@ h4,
     font-weight: bold;
 }
 
-.bold {
+/* underline */
+u {
     font-weight: bold;
 }
 
-.uppercase {
-    text-transform: uppercase;
+/* italic */
+i {
+    color: var(--clr-secondary-400);
 }
 
-.underlined {
-    text-decoration: underline;
-}
-
-.italic {
-    font-style: italic;
-}
-
-.capitalized {
-    text-transform: capitalize;
+/* bold */
+b {
+    background-color: var(--clr-grey-300);
 }
 
 .text {
